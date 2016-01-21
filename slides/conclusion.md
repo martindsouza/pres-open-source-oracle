@@ -16,7 +16,7 @@ Notes:
 
 new-slide-vertical
 
-# [KScope 16](http://kscope16.com/)
+[![KScope 16](www/img/kscope16.png)](http://http://kscope16.com/)
 
 new-slide-vertical
 
