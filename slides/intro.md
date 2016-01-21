@@ -10,8 +10,7 @@
 
 
 </br>
-- Presentation: [TODO](TODO)
-- Slides: [TODO](TODO)
+- Presentation: [bit.ly/open-source-oracle](http://bit.ly/open-source-oracle)
 
 Notes:
 - [Turn off notes](javascript: Reveal.configure({"showNotes": false}&#41;;)
@@ -22,13 +21,12 @@ new-slide-vertical
 # Slides
 <i class="fa fa-github"></i> [github.com/martindsouza/pres-open-source-oracle](https://github.com/martindsouza/pres-open-source-oracle)
 
-TODO image
 <p class="fragment">![Link to presentation online](www/img/github_desc.png)<p>
 
 Notes:
 - This entire presentation is open source.<br>
 - Can fork the project, modify, and make any changes you'd like!<br>
-- View the presentation [online](TODO) right now
+- View the presentation [online](http://martindsouza.github.io/pres-open-source-oracle) right now
 
 
 
