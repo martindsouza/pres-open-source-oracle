@@ -12,7 +12,11 @@ new-slide-vertical
 
 Notes:
 - Would like to get feedback from this talk.</br>
-- Please create an [issue](https://github.com/martindsouza/pres-open-source-apex/issues) with the label of `feedback` and leave your thoughts.
+- Please create an [issue](https://github.com/martindsouza/pres-open-source-oracle/issues) with the label of `feedback` and leave your thoughts.
+
+new-slide-vertical
+
+# [KScope 16](http://kscope16.com/)
 
 new-slide-vertical
 
@@ -20,6 +24,7 @@ new-slide-vertical
 
 <p class="no-bullet"></p>
 - <i class="fa fa-home"></i> [OraOpenSource](http://www.oraopensource.com)
+- <i class="fa fa-users"></i> [YYC APEX Meetup](http://www.meetup.com/orclapex-YYC/)
 - <i class="fa fa-twitter"></i> [martindsouza](https://twitter.com/martin)
 - <i class="fa fa-rss"></i> [www.talkapex.com](http://www.talkapex.com)
 - <i class="fa fa-envelope-o"></i> [mdsouza@insum.ca](mailto:mdsouza@insum.ca)
