@@ -60,6 +60,21 @@ new-slide-vertical
 - <i class="fa fa-rss"></i> [Blog](http://www.oraopensource.com/blog/?category=OXAR)
 
 
+
+new-slide-vertical
+
+# OOS Utils
+
+<i class="fa fa-github"></i> [github.com/OraOpenSource/oos-utils](https://github.com/OraOpenSource/oos-utils)
+
+Notes:
+- Common developer utility tools
+- Still in Alpha Phase
+
+new-slide-vertical
+<!-- .slide: data-background="#000" -->
+# <span class="white">Live Demo</span>
+
 new-slide-vertical
 
 # APEX-Diff
@@ -112,16 +127,6 @@ Notes:
 - Highlights apex.world plugin directory</br>
 - Look at [Select2 plugin](https://github.com/nbuytaert1/apex-select2) from [Nick Buytaert](https://apexplained.wordpress.com/)
 
-
-new-slide-vertical
-
-# OOS Utils
-
-<i class="fa fa-github"></i> [github.com/OraOpenSource/oos-utils](https://github.com/OraOpenSource/oos-utils)
-
-Notes:
-- Common developer utility tools
-- Still in Alpha Phase
 
 
 new-slide-vertical

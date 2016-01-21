@@ -61,4 +61,5 @@ new-slide-vertical
 - Intro
 - Popular OS Projects
 - Git
-- TODO?
+- Considerations
+- Wrap-up
