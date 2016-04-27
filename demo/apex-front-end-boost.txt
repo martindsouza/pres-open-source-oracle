@@ -1,0 +1,8 @@
+http://vcentos:10080/ords/f?p=160
+
+
+Dir for folder: giffy/Temp/apex_gulp
+
+cd /Users/giffy/Documents/GitHub/oraopensource/apex-frontend-boost
+
+npm start -- --project=vcentos

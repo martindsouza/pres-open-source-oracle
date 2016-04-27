@@ -63,19 +63,6 @@ new-slide-vertical
 
 new-slide-vertical
 
-# OOS Utils
-
-<i class="fa fa-github"></i> [github.com/OraOpenSource/oos-utils](https://github.com/OraOpenSource/oos-utils)
-
-Notes:
-- Common developer utility tools
-- Still in Alpha Phase
-
-new-slide-vertical
-<!-- .slide: data-background="#000" -->
-# <span class="white">Live Demo</span>
-
-new-slide-vertical
 
 # APEX-Diff
 
@@ -107,7 +94,82 @@ Notes:
 new-slide-vertical
 
 
+# OOS Utils
 
+<i class="fa fa-github"></i> [github.com/OraOpenSource/oos-utils](https://github.com/OraOpenSource/oos-utils)
+
+Notes:
+- Common developer utility tools
+- Still in Alpha Phase
+
+new-slide-vertical
+
+<!-- .slide: data-background="#000" -->
+# <span class="white">Live Demo</span>
+
+new-slide-vertical
+
+## PL/SQL Documentation
+
+</br>
+[OOS Utils Docs](https://github.com/OraOpenSource/oos-utils/tree/master/docs)
+
+new-slide-vertical
+
+## PL/SQL to Markdown
+
+new-slide-vertical
+
+<!-- .slide: data-background="#000" -->
+# <span class="white">Live Demo</span>
+
+new-slide-vertical
+
+## PL/SQL to Markdown
+
+</br>
+<i class="fa fa-github"></i> [github.com/OraOpenSource/plsql-md-doc](https://github.com/OraOpenSource/plsql-md-doc)
+
+</br>
+[Docs](https://github.com/OraOpenSource/plsql-md-doc/tree/master/docs)
+
+new-slide-vertical
+
+## APEX Front-End Boost
+
+new-slide-vertical
+
+<!-- .slide: data-background="#000" -->
+# <span class="white">Live Demo</span>
+
+new-slide-vertical
+
+## APEX Front-End Boost
+
+</br>
+<i class="fa fa-github"></i> [github.com/OraOpenSource/apex-frontend-boost](https://github.com/OraOpenSource/apex-frontend-boost)
+
+
+new-slide-vertical
+
+## OMonAPEX
+
+new-slide-vertical
+
+<!-- .slide: data-background="#000" -->
+# <span class="white">Live Demo</span>
+
+[Link](http://vcentos:10080/ords/f?p=500)
+
+new-slide-vertical
+
+## OMon APEX
+
+</br>
+<i class="fa fa-github"></i> [github.com/OraOpenSource/omonapex](https://github.com/OraOpenSource/omonapex)
+
+
+new-slide-vertical
 
 # APEX Plugins
 

@@ -13,7 +13,7 @@ end;
 -- sleep
 declare
 begin
-  oos_util.sleep(10);
+  oos_util.sleep(5);
 end;
 /
 
@@ -51,13 +51,13 @@ begin
   l_ans := oos_util_validation.is_date('32-Jan-2016', 'DD-MON-YYYY');
 
 --  dbms_output.put_line(l_ans);
-
+--
 --   if l_ans = true then
 --     dbms_output.put_line('TRUE');
 --   else
 --     dbms_output.put_line('FALSE');
 --   end if;
-   dbms_output.put_line(oos_util_string.tochar(l_ans));
+--   dbms_output.put_line(oos_util_string.to_char(l_ans));
 end;
 /
 
@@ -68,7 +68,7 @@ declare
 begin
   l_ans := oos_util_validation.is_number('123.45');
 
-  dbms_output.put_line(oos_util_string.tochar(l_ans));
+  dbms_output.put_line(oos_util_string.to_char(l_ans));
 end;
 /
 
@@ -80,14 +80,14 @@ declare
 begin
   l_ans := oos_util_validation.is_date('21-Jan-2016', 'DD-MON-YYYY');
 
-  dbms_output.put_line(oos_util_string.tochar(l_ans));
+  dbms_output.put_line(oos_util_string.to_char(l_ans));
 end;
 /
 
 
 select
---  'hello' || e.ename || 'you make ' || e.sal || 'a year'
-  oos_util_string.sprintf('hello %s1 you make %s1 a year', e.ename, e.sal)
+  'hello ' || e.ename || ' you make ' || e.sal || ' a year'
+--  oos_util_string.sprintf('hello %s1 you make %s1 a year', e.ename, e.sal)
 from emp e;
 
 
@@ -101,20 +101,20 @@ from emp e;
 
 
 select
---  ad.apex_view_name,
---  ad.comments,
+  ad.apex_view_name,
+  ad.comments,
   case
-    when length(ad.comments) > 35-3 then
-      substr(ad.comments, 1, 35-3) || '...'
+    when length(ad.comments) > 20-3 then
+      substr(ad.comments, 1, 20-3) || '...'
     else
       ad.comments
-  end comments_trunc,
---
-   oos_util_string.truncate_string(
-     p_str => ad.comments,
-     p_length => 35
-     , p_by_word => 'Y'
-   )
+  end comments_trunc
+
+--   oos_util_string.truncate(
+--     p_str => ad.comments,
+--     p_length => 20
+--     , p_by_word => 'N'
+--   )
 from apex_dictionary ad
 where 1=1
   and ad.column_id = 0
@@ -142,8 +142,13 @@ end;
 -- Unagg
 select ename from emp;
 
-select listagg(e.deptno, ',') within group (order by e.ename)
+select listagg(e.ename, ',') within group (order by e.ename)
 from emp e;
+
+
+select rownum, column_value
+  from table(oos_util_string.listunagg('ADAMS,ALLEN,BLAKE,CLARK,FORD,JAMES,JONES,KING,MARTIN,MILLER,SCOTT,SMITH,TURNER,WARD'))
+;
 
 select d.dname
 from dept d,
@@ -167,9 +172,9 @@ from apex_application_static_files sf;
 
 select
   sf.file_name,
-  trunc(dbms_lob.getlength(sf.file_content) / 1024)  || 'kb' len,
+  trunc(dbms_lob.getlength(sf.file_content) / 1024)  || 'kb' len
 --  oos_util_lob.get_lob_size(sf.file_content) len_n
-  oos_util_lob.get_lob_size(sf.file_content, 'KB') len_b
+--  oos_util_lob.get_lob_size(sf.file_content, 'KB') len_b
 from apex_application_static_files sf;
 
 
@@ -206,9 +211,12 @@ select v('P1_X')
 from dual;
 
 
+-- APEX
+-- Sample App: Orders > Enter New Order
+-- Go through a few screens
 declare
 begin
-  oos_util_apex.join_session(p_session_id => 10777192173425);
+  oos_util_apex.join_session(p_session_id => :app_session);
 end;
 /
 

@@ -1,0 +1,6 @@
+cd /Users/giffy/Documents/GitHub/oraopensource/plsql-md-doc
+
+atom config.json
+
+
+node app.js oos-utils

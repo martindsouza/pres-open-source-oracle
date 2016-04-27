@@ -24,10 +24,10 @@ new-slide-vertical
 
 <p class="no-bullet"></p>
 - <i class="fa fa-home"></i> [OraOpenSource](http://www.oraopensource.com)
-- <i class="fa fa-users"></i> [YYC APEX Meetup](http://www.meetup.com/orclapex-YYC/)
 - <i class="fa fa-twitter"></i> [martindsouza](https://twitter.com/martin)
 - <i class="fa fa-rss"></i> [www.talkapex.com](http://www.talkapex.com)
 - <i class="fa fa-envelope-o"></i> [mdsouza@insum.ca](mailto:mdsouza@insum.ca)
 - <i class="fa fa-building-o"></i> [Insum Solutions](http://www.insum.ca)
 
-Slides: [github.com/martindsouza/pres-open-source-oracle](https://github.com/martindsouza/pres-open-source-oracle)
+</br>
+Presentation: [bit.ly/open-source-oracle](http://bit.ly/open-source-oracle)
