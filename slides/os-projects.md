@@ -149,6 +149,8 @@ new-slide-vertical
 </br>
 <i class="fa fa-github"></i> [github.com/OraOpenSource/apex-frontend-boost](https://github.com/OraOpenSource/apex-frontend-boost)
 
+[Webinar](https://insum.webex.com/mw3100/mywebex/default.do?nomenu=true&siteurl=insum&service=6&rnd=0.4128747654387145&main_url=https%3A%2F%2Finsum.webex.com%2Fec3100%2Feventcenter%2Fevent%2FeventAction.do%3FtheAction%3Dlandingfrommail%26confViewID%3D1924220431%26%26EMK%3D4832534b00000002397442b1476e124fb5307150cdc9500e5dbfb56d191d5909a5bbe014733b51b3%26email%3Dchristian.larocque%2540gmail.com%26encryptTicket%3DSDJTSwAAAAI6GfyXDd7RSWWPHRXBJxlRnlHgop_exoEz473Ggg-Zfw2%26%26SourceId%3DTwitter%26siteurl%3Dinsum) Thursday, May 5, 2016 5:00 pm (Berlin)
+
 
 new-slide-vertical
 
